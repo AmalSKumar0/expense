@@ -1,0 +1,84 @@
+.box{
+    z-index: 2;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 40vw;
+    /* min-width: 440px; */
+    height: auto;
+    top: 6%;
+    left: 27%;
+    border-radius: 4vmin;
+}
+.heading{
+    position: relative;
+    top: 10px;
+    font-size: calc(30px + 2%);
+    color: rgb(54, 72, 64);
+    left: 25%;
+    right: 75%;
+}
+.data{
+    position: relative;
+    top: 30px;
+    left: 10%;
+}
+.data input{
+    width: 30vw;
+    /* min-width: 340px; */
+    height: 14px;
+    padding: 10px;
+    border:3px solid rgb(54, 72, 64);
+    border-radius: 4vmin;
+    gap: 10px;
+    color: rgb(54, 72, 64);
+    font-size: 15px;
+}
+button{
+    background-color: rgb(54, 72, 64);
+    width: 10vw;
+    min-width: 80px;
+    color: white;
+    border-radius: 4vmin;
+    height: 30px;
+    font-size: 20px;
+}
+.button{
+    position: relative;
+    left: 10%;
+    right: 90%;
+}
+button:hover{
+    border: 2px solid rgb(54, 72, 64);
+    background-color: white;
+    color: rgb(54, 72, 64);
+}
+
+ol li{
+    /* list-style: none; */
+    font-size: 20px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    left: 0px;
+}
+ol li span{
+   position: absolute;
+   right: 4vw;
+   top: 5px;
+   width: 40px;
+   height: 40px;
+   font-size: 22px;
+   color: #555;
+   line-height: 40px;
+   text-align: center;
+   border-radius: 50%;
+}
+ol li span:hover{
+   background-color: #edeef0;
+}
+h4{
+    color: rgb(54, 72, 64);
+    position: relative;
+    left: 21%;
+}
